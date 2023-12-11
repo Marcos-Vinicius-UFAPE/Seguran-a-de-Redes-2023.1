@@ -28,8 +28,8 @@ A arquitetura de segurança OSI (Open Systems Interconnection) é uma estrutura 
 
 **7. Para responder as letras abaixo, por favor, consulte o livro-texto da disciplina:**
 **(a) Desenhe uma matriz similar ao Quadro 1.4 que mostre o relacionamento entre serviços de segurança e ataques.**
-Serviços\Mecanismos | Cod | Ass digital | Ctrl acesso | Troca de autenticação | Preenchimento de tráfego | Controle de roteamento | Notorização |
---------------------| --- | ----------- | ----------- | --------------------- | ------------------------ | ---------------------- | ----------- |
+Serviços\Mecanismos | Cod | Ass digital | Ctrl acess | Integrid dados | Troca autenticação | Preenchimento de tráfego | Controle de roteamento | Notorização |
+--------------------| --- | ----------- | ---------- | -------------- | ------------------ | ------------------------ | ---------------------- | ----------- |
 Autenticação de entidade pareada | S | S |  |  | S |  |  |  |
 Autenticação de entidade pareada | S | S |  |  |  |  |  |  |
 Controle de acesso |  |  | S |  |  |  |  |  |
@@ -40,8 +40,8 @@ Responsabilização |  | S |  | S |  |  |  | S |
 Disponibilidade |  |  |  | S | S |  |  |  |
 
 **(b) Desenhe uma matriz similar ao Quadro 1.4 que mostre o relacionamento entre mecanismos de segurança e ataques.**
-Serviços\Mecanismos | Cod | Ass digital | Ctrl acesso | Troca de autenticação | Preenchimento de tráfego | Controle de roteamento | Notorização |
---------------------| --- | ----------- | ----------- | --------------------- | ------------------------ | ---------------------- | ----------- |
+Serviços\Mecanismos | Cod | Ass digital | Ctrl acess | Integrid dados | Troca autenticação | Preenchimento de tráfego | Controle de roteamento | Notorização |
+--------------------| --- | ----------- | ---------- | -------------- | ------------------ | ------------------------ | ---------------------- | ----------- |
 Autenticação de entidade pareada | S | S |  |  | S |  |  |  |
 Autenticação de entidade pareada | S | S |  |  |  |  |  |  |
 Controle de acesso |  |  | S |  |  |  |  |  |
