@@ -139,25 +139,16 @@ Portanto, para a operação MixColumns,
 
 entrada = 67 89 AB CD
 
-|2 3 1 1| * |67| = [67*2 + 89*3 + AB + CD] = [CE + 80 + AB + CD] = [28]
-|1 2 3 1|   |89|   [67 + 89*2 + AB*3 + CD]   [67 + 09 + E6 + CD]   [45]
-|1 1 2 3|   |AB|   [67 + 89 + AB*2 + CD*3]   [67 + 89 + 4D + 4C]   [EF]
-|3 1 1 2|   |CD|   [67*3 + 89 + AB + CD*2]   [A9 + 89 + AB + 81]   [0A]
+![Calculo1](https://i.imgur.com/UAQVTWZ.png)
 
 Verificação com a inverse mix column matrix nos dá:
 
-[E B D 9] * [28] = [28*E + 45*B + EF*D + 0A*9] = [AB + DI + 47 + 5A] = [67]
-[9 E B D]   [45]   [28*9 + 45*E + EF*B + 0A*D]   [73 + 9B + 13 + 72]   [89]
-[D 9 E B]   [EF]   [28*D + 45*9 + EF*E + 0A*B]   [D3 + 5B + 6D + 4E]   [AB]
-[B D 9 E]   [0A]   [28*B + 45*D + EF*9 + 0A*E]   [23 + 54 + D6 + 6C]   [CD]
+![Calculo2](https://i.imgur.com/EDBXtnC.png)
 
 Agora, alterando o primeiro bit na entrada, portanto,
 
 entrada = 77 89 AB CD
 
-[2 3 1 1] * [77] = [77*2 + 89*3 + AB + CD] = [EE + 80 + AB + CD] = [08]
-[1 2 3 1]   [89]   [77 + 89*2 + AB*3 + CD]   [77 + 09 + E6 + CD]   [55]
-[1 1 2 3]   [AB]   [77 + 89 + AB*2 + CD*3]   [77 + 89 + 4D + 4C]   [FF]
-[3 1 1 2]   [CD]   [77*3 + 89 + AB + CD*2]   [C7 + 89 + AB + 81]   [3A]
+![Calculo3](https://i.imgur.com/UenGKkK.png)
 
 O número de bits alterados na saída é 5, quando o primeiro bit é alterado na entrada.
