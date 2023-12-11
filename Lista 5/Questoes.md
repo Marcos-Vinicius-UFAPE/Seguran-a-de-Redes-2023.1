@@ -139,10 +139,10 @@ Portanto, para a operação MixColumns,
 
 entrada = 67 89 AB CD
 
-[2 3 1 1] * [67] = [67*2 + 89*3 + AB + CD] = [CE + 80 + AB + CD] = [28]
-[1 2 3 1]   [89]   [67 + 89*2 + AB*3 + CD]   [67 + 09 + E6 + CD]   [45]
-[1 1 2 3]   [AB]   [67 + 89 + AB*2 + CD*3]   [67 + 89 + 4D + 4C]   [EF]
-[3 1 1 2]   [CD]   [67*3 + 89 + AB + CD*2]   [A9 + 89 + AB + 81]   [0A]
+|2 3 1 1| * |67| = [67*2 + 89*3 + AB + CD] = [CE + 80 + AB + CD] = [28]
+|1 2 3 1|   |89|   [67 + 89*2 + AB*3 + CD]   [67 + 09 + E6 + CD]   [45]
+|1 1 2 3|   |AB|   [67 + 89 + AB*2 + CD*3]   [67 + 89 + 4D + 4C]   [EF]
+|3 1 1 2|   |CD|   [67*3 + 89 + AB + CD*2]   [A9 + 89 + AB + 81]   [0A]
 
 Verificação com a inverse mix column matrix nos dá:
 
