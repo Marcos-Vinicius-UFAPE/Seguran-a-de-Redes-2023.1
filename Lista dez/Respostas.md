@@ -1,4 +1,4 @@
-### 1. TOs usuários A e B utilizam a técnica de troca de chaves Diffie-Hellman com um primo comum q = 71 e uma raiz primitiva α = 7.
+### 1. Os usuários A e B utilizam a técnica de troca de chaves Diffie-Hellman com um primo comum q = 71 e uma raiz primitiva α = 7.
 
 #### (a) Se o usuário A tem chave privada XA = 5, qual é a chave pública de A, YA?
 
